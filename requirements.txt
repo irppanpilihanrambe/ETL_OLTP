@@ -1,0 +1,33 @@
+# Database
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.25
+
+# Data processing
+pandas==2.2.0
+numpy==1.26.3
+pyarrow==14.0.2
+
+# ML — forecasting
+prophet==1.1.5
+
+# ML — classification
+scikit-learn==1.4.0
+xgboost==2.0.3
+imbalanced-learn==0.11.0
+
+# Experiment tracking
+mlflow==2.10.0
+
+# Airflow (install separately via docker)
+# apache-airflow==2.8.1
+
+# dbt
+dbt-core==1.7.4
+dbt-postgres==1.7.4
+
+# Utilities
+python-dotenv==1.0.0
+loguru==0.7.2
+tqdm==4.66.1
+click==8.1.7
+pyyaml==6.0.1
